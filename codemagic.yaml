@@ -1,0 +1,8 @@
+workflows:
+  default-workflow:
+    name: Default Workflow
+    scripts:
+      - name: Get Flutter packages
+        script: flutter pub get
+      - name: Build APK
+        script: flutter build apk
